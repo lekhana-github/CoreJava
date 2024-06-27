@@ -18,7 +18,7 @@ public class Employees {
 
 	    /**
 	     * Setter method for the name attribute.
-	     * @param name the new name of the employee
+	     * name the new name of the employee
 	     */
 	    public void setName(String name) {
 	        this.name = name;
@@ -34,7 +34,7 @@ public class Employees {
 
 	    /**
 	     * Setter method for the employeeId attribute.
-	     * @param employeeId the new employee ID
+	     * employeeId the new employee ID
 	     */
 	    public void setEmployeeId(int employeeId) {
 	        this.employeeId = employeeId;
@@ -50,7 +50,7 @@ public class Employees {
 
 	    /**
 	     * Setter method for the salary attribute.
-	     * @param salary the new salary of the employee
+	     * salary the new salary of the employee
 	     */
 	    public void setSalary(double salary) {
 	        this.salary = salary;

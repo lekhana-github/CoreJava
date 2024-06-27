@@ -17,7 +17,7 @@ public class Developer extends Employees {
 
     /**
      * Setter method for the programmingLanguage attribute.
-     * @param programmingLanguage the new programming language of the developer
+     * programmingLanguage the new programming language of the developer
      */
     public void setProgrammingLanguage(String programmingLanguage) {
         this.programmingLanguage = programmingLanguage;
@@ -33,7 +33,7 @@ public class Developer extends Employees {
 
     /**
      * Setter method for the yearsOfExperience attribute.
-     * @param yearsOfExperience the new years of experience of the developer
+     * yearsOfExperience the new years of experience of the developer
      */
     public void setYearsOfExperience(int yearsOfExperience) {
         this.yearsOfExperience = yearsOfExperience;

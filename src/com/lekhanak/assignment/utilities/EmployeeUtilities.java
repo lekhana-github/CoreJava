@@ -10,7 +10,7 @@ import com.lekhanak.assignment.employees.Developer;
 public class EmployeeUtilities {
 	/**
      * Prints the details of an employee.
-     * @param employee the employee object
+     * employee the employee object
      */
     public void printEmployeeDetails(Employees employee) {
         System.out.println("Name: " + employee.getName());
@@ -20,7 +20,7 @@ public class EmployeeUtilities {
 
     /**
      * Gives a 10% raise to the salary of an employee.
-     * @param employee the employee object
+     * employee the employee object
      */
     public void giveRaise(Employees employee) {
         double newSalary = employee.getSalary() * 1.1;
@@ -29,7 +29,7 @@ public class EmployeeUtilities {
 
     /**
      * Prints the details of a manager.
-     * @param manager the manager object
+     * manager the manager object
      */
     private void printManagerDetails(Manager manager) {
         printEmployeeDetails(manager);
